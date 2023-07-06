@@ -30,3 +30,5 @@ header.classList.add('scroll')
 header.classList.remove('scroll')
     }
 })
+
+// Testimonials carouse slider 
