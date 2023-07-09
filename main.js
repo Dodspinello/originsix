@@ -31,4 +31,13 @@ header.classList.remove('scroll')
     }
 })
 
-// Testimonials carouse slider 
+// Testimonials carousel slider swiper
+
+const swiper = new Swiper('.swiper', {
+    sliderPerView: 1,
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true,
+});
